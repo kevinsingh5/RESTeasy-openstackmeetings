@@ -28,30 +28,3 @@ public class Meeting {
 	}
 
 }
-
-
-/*
-XmlRootElement(name = "course")
-
-public class Meeting {
-	
-	private String name;
-	private String department;
-	
-	public String getName() {
-		return name;
-	}
-	
-	public String getDepartment() {
-		return department;
-	}
-	
-	public void setDepartment(String department) {
-		this.department = department;
-	}
-	
-	public void setName(String name) {
-		this.name = name;
-	}
-}
-*/

@@ -10,8 +10,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+
 public class OpenStackMeetingsServiceImpl implements OpenStackMeetingsService {	
-	
 	
 	public List<String> getData(String link, String value) {
 		Document doc = null;
@@ -24,7 +24,7 @@ public class OpenStackMeetingsServiceImpl implements OpenStackMeetingsService {
 		}
 		
 		// get the web page's elements
-		Elements items;
+		Elements items = null;
 		if (doc != null) {
 			items = doc.select("tr td a[href]");		
 		} else {

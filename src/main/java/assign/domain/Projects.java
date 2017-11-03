@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlAccessType;
 @XmlRootElement(name = "projects")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Projects {
-	    
+	
     private List<String> project = null;
-    
+	    
     public List<String> getProjects() {
     	return project;
     }
@@ -19,5 +19,4 @@ public class Projects {
     public void setProjects(List<String> projects) {
     	this.project = projects;
     }
-    
 }
