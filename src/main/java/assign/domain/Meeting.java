@@ -8,17 +8,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Meeting {
 	
-	//private String name;
 	private String year;
 
-//	public String getName() {
-//		return name;
-//	}
-	
-//	public void setName(String name) {
-//		this.name = name;
-//	}
-	
 	public String getYear() {
 		return year;
 	}
